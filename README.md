@@ -21,7 +21,7 @@ OriginBlog 的开发目标是打造一个轻量、美观且易扩展的博客系
 
 ## Demo
 
-[Origin Blog](http://booksdoc.cn/)
+[Origin Blog 在线演示](http://booksdoc.cn/)
 
 首页
 
