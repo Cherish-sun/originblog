@@ -213,9 +213,6 @@ $ (sudo) docker-compose down
 
 参见[MongoDB数据库未授权访问漏洞](https://help.aliyun.com/knowledge_detail/112025.html)
 
-## 依赖
-
-所有依赖均基于当前（2019.4）发布的最新稳定版本。
 
 ### 后端
 
