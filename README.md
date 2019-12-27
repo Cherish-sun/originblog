@@ -21,23 +21,7 @@ OriginBlog 的开发目标是打造一个轻量、美观且易扩展的博客系
 
 ## Demo
 
-[Origin Blog 在线演示](http://booksdoc.cn/)
-
-首页
-
-![首页](http://pp0zvba2e.bkt.clouddn.com/2019-04-18%2011-06-38%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
-
-文章详情页
-
-![文章详情页](http://pp0zvba2e.bkt.clouddn.com/2019-04-18%2011-10-33%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
-
-后台主页
-
-![后台主页](http://pp0zvba2e.bkt.clouddn.com/2019-04-18%2011-07-41%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
-
-后台管理页
-
-![后台管理页](http://pp0zvba2e.bkt.clouddn.com/2019-04-18%2011-08-29%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
+[Origin Blog 在线演示](https://m.booksdoc.cn/)
 
 ## 运行
 
@@ -259,15 +243,3 @@ $ (sudo) docker-compose down
 - Font Awesome(5.8.1)
 - [EasyMDE](https://github.com/Ionaru/easy-markdown-editor)
 - highlight.js
-
-## 许可证
-
-MIT
-
-## 更新计划
-
-本项目将持续添加新特性并完善修复现有功能。
-
-- [ ] 优化后台编辑页面的表单布局
-- [ ] 向管理后台添加内容搜索功能
-- [ ] 使用前端框架实现前后端分离
