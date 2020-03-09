@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+
+
+
+{% block header %}
+    <header class="masthead" style="background-image: url({{ blog_meta.bg_about }})">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <div class="page-heading">
+                        <h1>学习资源</h1>
+                        <hr class="small">
+                        <span class="subheading">{{ blog_meta.subtitle }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+{% endblock %}
+
+{% block main %}
+
+        <div class="row mt-2">
+            <div class="col-lg-8 col-md-10 mx-auto" id="article">
+                <h3></h3>
+                <hr>
+                <ul>
+{#                    {% for post in pagination.items %}#}
+{#                        {% if post %}#}
+                            <li>
+                                <a href="https://docs.python.org/zh-cn/3/index.html">Python 官方文档</a>
+                            </li>
+                            <li>
+                                <a href="http://docs.jinkan.org/docs/flask/">Flask 官方文档</a>
+                            </li>
+                            <li>
+                                <a href="https://docs.djangoproject.com/en/2.0/">Django 官方文档</a>
+                            </li>
+
+{#                        {% else %}#}
+{#                            <p class="post-subtitle">No articles found here</p>#}
+{#                        {% endif %}#}
+{#                    {% endfor %}#}
+                </ul>
+{#                <!-- pagination -->#}
+{#                <div class="clearfix">#}
+{#                    {% if pagination.has_next %}#}
+{#                        <a class="btn btn-primary float-right ml-2"#}
+{#                           href="{{ url_for('user.index', username=user.username, page=pagination.next_num) }}#article">Older Posts &rarr;#}
+{#                        </a>#}
+{#                    {% endif %}#}
+{#                    {% if pagination.has_prev %}#}
+{#                        <a class="btn btn-primary float-right"#}
+{#                           href="{{ url_for('user.index', username=user.username, page=pagination.prev_num) }}#article">Previous Posts#}
+{#                        </a>#}
+{#                    {% endif %}#}
+{#                </div>#}
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block scripts %}
+    <script type="text/javascript">
+        $('#btn_weixin').on('click', function (event) {
+            if ($('#weixin').hasClass('d-none'))
+                $('#weixin').removeClass('d-none');
+            else
+                $('#weixin').addClass('d-none');
+            return false
+        })
+    </script>
+{% endblock %}
