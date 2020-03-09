@@ -23,7 +23,7 @@ bleach = "*"
 requests = "*"
 python-dotenv = "*"
 gunicorn = "*"
-werkzeug = "==0.14.1"
+werkzeug = "==0.15.3"
 
 [requires]
 python_version = "3.6"
