@@ -2,6 +2,17 @@
 
 [OriginBlog](https://github.com/Cherish-sun/originblog) 是一个由 [Flask](http://flask.pocoo.org/) 和 [MongoDB](https://www.mongodb.org/) 驱动的博客项目。
 
+
+![GitHub](https://img.shields.io/github/license/Cherish-sun/originblog)
+![GitHub top language](https://img.shields.io/github/languages/top/Cherish-sun/originblog)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Cherish-sun/originblog)
+![GitHub repo size](https://img.shields.io/github/repo-size/Cherish-sun/originblog)
+![GitHub last commit](https://img.shields.io/github/last-commit/Cherish-sun/originblog)
+![GitHub issues](https://img.shields.io/github/issues/Cherish-sun/originblog)
+![GitHub Repo stars](https://img.shields.io/github/stars/Cherish-sun/originblog?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Cherish-sun/originblog?style=social)
+
+
 OriginBlog 的开发目标是打造一个轻量、美观且易扩展的博客系统，它具有以下特性：
 
 - 支持多用户，允许用户发表文章、参与后台管理
