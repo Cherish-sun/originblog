@@ -245,3 +245,11 @@ $ (sudo) docker-compose down
 - Font Awesome(5.8.1)
 - [EasyMDE](https://github.com/Ionaru/easy-markdown-editor)
 - highlight.js
+
+
+
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/Cherish-sun/originblog.svg)](https://starchart.cc/Cherish-sun/originblog)
+
